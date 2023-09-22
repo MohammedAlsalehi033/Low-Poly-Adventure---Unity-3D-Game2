@@ -1,0 +1,563 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1694009924456519, "dur":1499, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694009924458030, "dur":214, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1694009924458329, "dur":32, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1694009924458361, "dur":646, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1694009924459105, "dur":937, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694009924460042, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694009929281381, "dur":236, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694009929281618, "dur":96, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694009929281714, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694009929281721, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694009929281738, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694009929281743, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694009929281755, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694009929281759, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694009929281770, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694009929281774, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694009929281786, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694009929281790, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694009929281803, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694009929281808, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694009929281821, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694009929281825, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694009929281840, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694009929281874, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694009929281934, "dur":2691, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1694009924459384, "dur":683, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694009924460067, "dur":6035, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694009924466115, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1694009924466368, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694009924479195, "dur":172775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1694009924652013, "dur":1203119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694009925855142, "dur":52, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694009925855641, "dur":7508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694009925863210, "dur":76131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694009925939351, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694009925939366, "dur":14085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694009925953479, "dur":1973, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694009925955482, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694009925955495, "dur":2193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694009925957746, "dur":95783, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694009926053534, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694009926053544, "dur":2497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694009926056066, "dur":51217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694009926107292, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694009926107304, "dur":2180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694009926109516, "dur":203305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694009926312828, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694009926312839, "dur":2238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694009926315103, "dur":89706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694009926404818, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694009926404830, "dur":3109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694009926407966, "dur":108525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694009926516530, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694009926517149, "dur":2892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694009926520068, "dur":361796, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694009926881872, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694009926881886, "dur":10631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694009926892543, "dur":120639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694009927013191, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694009927013207, "dur":2016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694009927015259, "dur":523411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694009927538677, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694009927538689, "dur":2497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694009927541220, "dur":525253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694009928066479, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694009928066491, "dur":7176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694009928073824, "dur":273261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694009928347090, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1694009928347099, "dur":4347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1694009928351479, "dur":929873, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694009924459451, "dur":637, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694009924460088, "dur":6011, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694009924466115, "dur":31043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1694009924497162, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694009924497181, "dur":1663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1694009924498905, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1694009924499060, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694009924499151, "dur":53033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1694009924552267, "dur":127840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1694009924680129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694009924680138, "dur":2618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1694009924682820, "dur":2177591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694009926860417, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694009926860426, "dur":23409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694009926883900, "dur":80934, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694009926964840, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694009926964851, "dur":2314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694009926967197, "dur":251754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694009927218958, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694009927218970, "dur":2065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694009927221061, "dur":532323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694009927753391, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694009927753403, "dur":3930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694009927757359, "dur":412155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694009928169521, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694009928169532, "dur":3765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694009928173350, "dur":1103997, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694009929277358, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1694009929277373, "dur":3912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1694009929281307, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1694009929281311, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009924459527, "dur":580, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009924460107, "dur":5990, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009924466114, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1694009924466353, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009924469009, "dur":61962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1694009924531015, "dur":8835, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1694009924539857, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009924539976, "dur":67498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1694009924607519, "dur":412692, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694009925020218, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009925020529, "dur":1906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694009925022512, "dur":161450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694009925183967, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009925183980, "dur":3994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694009925187998, "dur":50330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694009925238334, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009925238346, "dur":2887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694009925241272, "dur":56787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694009925298067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009925298079, "dur":3217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694009925301323, "dur":107853, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694009925409183, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009925409195, "dur":2023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694009925411250, "dur":102120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694009925513379, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009925513392, "dur":2832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694009925516254, "dur":72213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694009925588475, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009925588487, "dur":6561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694009925595079, "dur":104302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694009925699387, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009925699401, "dur":2378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694009925701804, "dur":86361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694009925788173, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009925788184, "dur":6703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694009925794909, "dur":35912, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694009925830828, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009925830841, "dur":2574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694009925833445, "dur":300371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694009926133824, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009926133836, "dur":27614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694009926161478, "dur":79940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694009926241424, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009926241436, "dur":2368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694009926243836, "dur":137263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694009926381106, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009926381118, "dur":3074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694009926384285, "dur":470113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694009926854405, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009926854417, "dur":5379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694009926859827, "dur":70495, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694009926930327, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009926930339, "dur":2077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694009926932439, "dur":16440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694009926948886, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009926948898, "dur":3141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694009926952074, "dur":297337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694009927249418, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009927249430, "dur":1734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694009927251195, "dur":322171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694009927573372, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009927573384, "dur":2015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694009927575426, "dur":688407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694009928263840, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009928263851, "dur":5263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1694009928269146, "dur":8020, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1694009928277175, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009928277894, "dur":2225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1694009928280150, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1694009928280192, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009928280261, "dur":2166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1694009928282456, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1694009928282486, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009928282495, "dur":1771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":3, "ts":1694009928284303, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1694009928284333, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009928284365, "dur":1890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":3, "ts":1694009928286288, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1694009928286355, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009928286364, "dur":5279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1694009928291678, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1694009928291712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009928291721, "dur":5742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1694009928297499, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1694009928297530, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009928297539, "dur":6101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1694009928303670, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1694009928303693, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009928303702, "dur":12531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1694009928316270, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1694009928316300, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009928316309, "dur":2066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1694009928318408, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1694009928318627, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009928318637, "dur":1764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1694009928320432, "dur":1378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1694009928321816, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009928321828, "dur":2272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1694009928324143, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1694009928324166, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009928324175, "dur":2064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1694009928326326, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/level3.resS" }}
+,{ "pid":12345, "tid":3, "ts":1694009928326365, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009928326374, "dur":1908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/level3.resS" }}
+,{ "pid":12345, "tid":3, "ts":1694009928328323, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1694009928328350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009928328360, "dur":2277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/level3" }}
+,{ "pid":12345, "tid":3, "ts":1694009928330670, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/level2.resS" }}
+,{ "pid":12345, "tid":3, "ts":1694009928330705, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009928330713, "dur":2028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/level2.resS" }}
+,{ "pid":12345, "tid":3, "ts":1694009928332774, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1694009928332798, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009928332806, "dur":2192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/level2" }}
+,{ "pid":12345, "tid":3, "ts":1694009928335029, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1694009928335061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009928335070, "dur":1947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1694009928337049, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1694009928337072, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009928337082, "dur":2482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1694009928339599, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1694009928339624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009928339633, "dur":2692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1694009928342402, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1694009928342427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009928342437, "dur":2454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1694009928344916, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1694009928344944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009928344954, "dur":1827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1694009928346808, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1694009928346995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1694009928347003, "dur":9109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1694009928356149, "dur":925335, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694009924459613, "dur":510, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694009924460123, "dur":5980, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694009924466114, "dur":41784, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1694009924507903, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694009924507952, "dur":2473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1694009924510488, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1694009924510651, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694009924510659, "dur":78216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1694009924588948, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1694009924589089, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694009924589098, "dur":252072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1694009924841245, "dur":237735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694009925078987, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694009925079570, "dur":1832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694009925081425, "dur":63274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694009925144747, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694009925144759, "dur":2692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694009925147505, "dur":63081, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694009925210593, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694009925210606, "dur":2718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694009925213362, "dur":148224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694009925361593, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694009925361604, "dur":9079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694009925370712, "dur":110961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694009925481679, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694009925481691, "dur":5868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694009925487585, "dur":225159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694009925712751, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694009925712762, "dur":1792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694009925714596, "dur":109729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694009925824332, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694009925824346, "dur":2101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694009925826476, "dur":151324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694009925977807, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694009925977840, "dur":3339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694009925981228, "dur":99026, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694009926080283, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694009926080296, "dur":5848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694009926086282, "dur":158491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694009926244778, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694009926244789, "dur":2378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694009926247202, "dur":106803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694009926354011, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694009926354033, "dur":2972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694009926357032, "dur":46644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694009926403683, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694009926403694, "dur":6044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694009926409765, "dur":83862, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694009926493634, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694009926493649, "dur":2332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694009926496009, "dur":128863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694009926624880, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694009926624897, "dur":18751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694009926643678, "dur":1227287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694009927870972, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694009927870983, "dur":7395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694009927878406, "dur":352861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694009928231273, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694009928231287, "dur":3206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694009928234609, "dur":868706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694009929103324, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1694009929103340, "dur":2389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1694009929105756, "dur":175623, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694009924459691, "dur":452, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694009924460143, "dur":5992, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694009924466135, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1694009924466371, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694009924479690, "dur":27933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1694009924507685, "dur":190646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1694009924698335, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694009924698344, "dur":1687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1694009924700086, "dur":149194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1694009924849286, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694009924849296, "dur":3174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1694009924852530, "dur":264860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694009925117397, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694009925117537, "dur":2230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694009925119796, "dur":64349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694009925184151, "dur":87, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694009925184312, "dur":3122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694009925187461, "dur":84343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694009925271809, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694009925271818, "dur":2890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694009925274781, "dur":111093, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694009925385881, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694009925385892, "dur":2138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694009925388053, "dur":160010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694009925548073, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694009925548085, "dur":2250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694009925550364, "dur":152666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694009925703037, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694009925703048, "dur":2289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694009925705366, "dur":72071, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694009925777483, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694009925777495, "dur":17324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694009925794842, "dur":257717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694009926052602, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694009926052614, "dur":3884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694009926056519, "dur":111546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694009926168073, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694009926168084, "dur":13867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694009926182017, "dur":400959, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694009926583016, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694009926583028, "dur":2674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694009926585730, "dur":203343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694009926789080, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694009926789092, "dur":4855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694009926793982, "dur":91833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694009926885821, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694009926886027, "dur":3733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694009926889785, "dur":79699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694009926969490, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694009926969537, "dur":27429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694009926996997, "dur":319180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694009927316188, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694009927316213, "dur":5280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694009927321518, "dur":369238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694009927690765, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694009927690777, "dur":3255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694009927694057, "dur":171676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694009927865780, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694009927865798, "dur":3539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694009927869367, "dur":338386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694009928207760, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694009928207890, "dur":4316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694009928212233, "dur":684410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694009928896648, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1694009928896659, "dur":2410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1694009928899099, "dur":382250, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694009924459861, "dur":299, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694009924460160, "dur":5935, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694009924466115, "dur":48981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1694009924515101, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694009924515459, "dur":1304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1694009924516807, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1694009924516920, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694009924517471, "dur":197736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1694009924715245, "dur":52365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName.exe" }}
+,{ "pid":12345, "tid":6, "ts":1694009924767616, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694009924767624, "dur":2973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName.exe" }}
+,{ "pid":12345, "tid":6, "ts":1694009924770628, "dur":412786, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694009925183422, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694009925183455, "dur":2127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694009925185607, "dur":59415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694009925245076, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694009925245088, "dur":2255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694009925247371, "dur":177141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694009925424519, "dur":25, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694009925424615, "dur":4716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694009925429374, "dur":266740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694009925696123, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694009925696135, "dur":2064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694009925698229, "dur":72770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694009925771005, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694009925771065, "dur":10571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694009925781660, "dur":55664, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694009925837331, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694009925837379, "dur":4965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694009925842436, "dur":145221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694009925987663, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694009925987675, "dur":3751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694009925991459, "dur":179545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694009926171010, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694009926171022, "dur":2477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694009926173525, "dur":80399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694009926253950, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694009926253962, "dur":2037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694009926256033, "dur":153353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694009926409392, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694009926409405, "dur":3411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694009926412842, "dur":112687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694009926525536, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694009926525547, "dur":2127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694009926527700, "dur":147653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694009926675359, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694009926675376, "dur":2381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694009926677788, "dur":163480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694009926841277, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694009926841294, "dur":7564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694009926849703, "dur":403928, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694009927253638, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694009927253650, "dur":6782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694009927260457, "dur":472105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694009927732569, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694009927732582, "dur":5344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694009927737983, "dur":965244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694009928703233, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1694009928703809, "dur":7675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1694009928711511, "dur":569867, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694009924459980, "dur":195, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694009924460175, "dur":5930, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694009924466114, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1694009924466342, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694009924468622, "dur":53222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1694009924521888, "dur":48683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1694009924570575, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694009924570584, "dur":1208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1694009924571827, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1694009924571922, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694009924571929, "dur":27267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1694009924599256, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1694009924599354, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694009924599360, "dur":173911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1694009924773337, "dur":305666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694009925079011, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694009925079584, "dur":2174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694009925081782, "dur":111570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694009925193396, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694009925193408, "dur":4537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694009925197975, "dur":56293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694009925254274, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694009925254282, "dur":1904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694009925256213, "dur":41847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694009925298066, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694009925298079, "dur":4918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694009925303035, "dur":510614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694009925813658, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694009925813671, "dur":2901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694009925816603, "dur":299254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694009926115871, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694009926115899, "dur":14671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694009926130598, "dur":67126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694009926197730, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694009926197741, "dur":3222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694009926200992, "dur":119760, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694009926320758, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694009926320770, "dur":2836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694009926323631, "dur":80287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694009926403925, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694009926403934, "dur":4208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694009926408168, "dur":69249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694009926477424, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694009926477437, "dur":3176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694009926480639, "dur":79792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694009926560600, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694009926560625, "dur":2615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694009926563264, "dur":222271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694009926785577, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694009926785590, "dur":1613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694009926787228, "dur":139471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694009926926709, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694009926926729, "dur":3320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694009926930077, "dur":367089, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/Unity.Services.Analytics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694009927297172, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694009927297201, "dur":2318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/Unity.Services.Analytics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694009927299555, "dur":155527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694009927455090, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694009927455208, "dur":2676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694009927457916, "dur":142234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694009927600156, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694009927600169, "dur":2532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694009927602728, "dur":1281459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694009928884194, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1694009928884206, "dur":3683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1694009928887918, "dur":393433, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694009924460049, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694009924460050, "dur":6043, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694009924466114, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1694009924466126, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694009924467165, "dur":394, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1694009924467569, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1694009924467605, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694009924467970, "dur":4100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1694009924472073, "dur":263010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1694009924735087, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694009924735096, "dur":1319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1694009924736474, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1694009924736599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694009924737006, "dur":219066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1694009924956134, "dur":161147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694009925117290, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694009925117513, "dur":3137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694009925120675, "dur":232494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694009925353190, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694009925353203, "dur":2255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694009925355501, "dur":321697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694009925677204, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694009925677215, "dur":2233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694009925679474, "dur":84684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694009925764262, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694009925764573, "dur":6091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694009925770700, "dur":54257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694009925824966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694009925824977, "dur":2307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694009925827309, "dur":11799, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694009925839115, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694009925839131, "dur":1888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694009925841045, "dur":280218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694009926121269, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694009926121280, "dur":45894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694009926167206, "dur":70874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694009926238086, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694009926238099, "dur":5373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694009926243528, "dur":107012, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694009926350547, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694009926350572, "dur":1905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694009926352512, "dur":88116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694009926440635, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694009926440655, "dur":1669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694009926442348, "dur":132087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694009926574443, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694009926574457, "dur":3049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694009926577574, "dur":90872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694009926668453, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694009926668466, "dur":2260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694009926670754, "dur":107926, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694009926778687, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694009926778697, "dur":4131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694009926782884, "dur":80500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694009926863390, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694009926863402, "dur":2318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694009926865744, "dur":53021, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694009926918772, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694009926918784, "dur":2192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694009926921008, "dur":28451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694009926949465, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694009926949476, "dur":2586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694009926952085, "dur":911261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694009927863353, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694009927863365, "dur":4208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694009927867602, "dur":376237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694009928243846, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694009928243857, "dur":2531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694009928246420, "dur":643642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694009928890071, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1694009928890109, "dur":5238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zia Laptop/Desktop/NoName_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1694009928895377, "dur":386018, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1694009929286910, "dur":4387, "ph":"X", "name": "ProfilerWriteOutput" }
+,
